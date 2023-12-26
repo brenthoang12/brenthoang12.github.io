@@ -6,6 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -21,11 +22,12 @@ header {
     align-items: center;
     padding: 10px 10%;
     border: .5px solid black;
+    background-color: white;
 }
 
-    header img{
+    header img, button{
         height: 40px;
-        border-radius: 7px;
+        border-radius: 10px;
     }
 
 
@@ -41,16 +43,21 @@ header {
         transition-duration: .5s;
     }
 
-    #nav_bar a {
-        font-size: 20px;
+    #nav_bar a, i {
+        font-size: 16px;
         color: black;
         text-decoration: none;
     }
 
-    #nav_bar li:hover{
-        background-color: lightgrey;
+    #nav_bar li:hover {
+        background-color: #f1f1f1;
     }
 
-
+#nav_but {
+    padding: 0px 15px;
+    background-color: black;
+    color: white;
+    border-color: none;
+}
 
 
