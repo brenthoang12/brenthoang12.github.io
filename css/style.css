@@ -56,13 +56,18 @@ header {
         background-color: #f1f1f1;
     }
 
-#nav_but {
-    padding: 0px 15px;
+.nav_but {
+    padding: 10px 15px;
     background-color: black;
     color: white;
     border-color: none;
     font-weight: bold;
+    border-radius: 10px;
 }
+
+    .nav_but:hover{
+        background-color: #FF7262;
+    }
 
 /* Section */
 section {
@@ -109,13 +114,18 @@ section {
     margin-bottom: auto;
 }
 
-    .grid_button button{
-        padding: 25px 20px;
+    .grid_button a{
+        padding: 25px 30px;
         line-height: 0;
         background-color: black;
         color: white;
         font-weight: bold;
         font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .grid_button a:hover{
+        background-color: #A259FF;
     }
 
 
@@ -137,5 +147,6 @@ footer {
     .footer_box a {
         color: white
     }
+
 
 /* Responsive */
