@@ -25,13 +25,25 @@
                     </ul> 
                 </nav>
             </div>
-
+            
             <a href="#linkedin" class="nav_but">LinkedIn</a>
             
+            <!--Mobile Menu-->
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
+
+        <div>
+            <nav>
+                <ul class="mobile_menu" class="open">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#linkedin" class="nav_but">LinkedIn</a></li>
+                </ul> 
+            </nav>
+        </div>
         
 
         <!--Main Content-->
@@ -69,6 +81,14 @@
                 <p>justbrent111@gmail.com - <a href="https://twitter.com/Brent_Hoang">/Brent_Hoang</a></p>
             </div>
         </footer>
-        
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.mobile_menu')
+
+        toggleBtn.onclick = function (){
+            dropDownMenu.classList.toggle('open')
+        }
+    </script>
     </body>
 </html>
